@@ -12,15 +12,15 @@ const About = ({ onClose }) => {
           <img className="about-img" src={profilePic} alt="Atika" />
           <div className="about-text">
             <h1 className="highlight">ATIKA HUSSAIN🍃</h1>
-            <p>Software Engineer, Game Developer, illustrator, Computer Science Student </p>
+            <p>Software Engineer, illustrator, Computer Science Undergrad </p>
           </div>
         </div>
 
         <div className="box-content">
           <div className="about-content">
             <p>
-              hello i am a software and <span className="highlight">game developer</span> currently completed my second year of BS
-              in Computer Science major and i am passionate about...
+              Hello i am a <span className="highlight">Software Engineer</span> currently in my third year of BS
+              in Computer Science major i am passionate about...
             </p>
             <ul>
               <li>Game developement</li>
@@ -28,6 +28,7 @@ const About = ({ onClose }) => {
               <li>Data Base integration</li>
               <li>Story Boarding</li>
               <li>Creative illustrations</li>
+              <li>Fun and creative website designing</li>
             </ul>
             <p>
               I am intrested in building creative and interactive applications that combine <span className="highlight">problem-solving, storyboarding,</span>
@@ -35,12 +36,12 @@ const About = ({ onClose }) => {
             </p>
             <p>
               Intrested in working with me? Send mail me at:
-              <a href="mailto:atikahussain248.com" target="_blank" rel="noreferrer">
+              <a href="mailto:atikahussain248@gmail.com" target="_blank" rel="noreferrer">
                 <span className="highlight">atikahussain248@gmail.com</span>
               </a>
             </p>
             <p>
-              you can download my resume from the following:
+              you can download my resume from here:
               <a href="/assets/cv.pdf" download>
                 <button className="cont-btn">DOWNLOAD CV</button>
               </a>
@@ -49,22 +50,26 @@ const About = ({ onClose }) => {
 
           <div className="about-edu">
             <h1>EDUCATION</h1>
-            <p>Third year university student persuing BS Computer Science from FAST NUCES LHR.</p>
+            <p>Third year university student doing Bachelors in Computer Science from FAST NUCES.</p>
           </div>
 
           <div className="about-int">
             <h1>OTHER INTERESTS</h1>
-            <p>some of my interests and hobbies are</p>
+            <p>Some of my interests and hobbies are</p>
             <ul>
               <li>
-                free hand sketching,you can see my work from my art page:
+                Free hand sketching, You can see my work from my page:
                 <a href="https://instagram.com/radiantartt" target="_blank" rel="noreferrer">
                   <span className="highlight">RADIANTART</span>
                 </a>
               </li>
-              <li>physics especially <span className="highlight">clestial mechanics</span></li>
-              <li>exploring human personalities</li>
-              <li>music, kdramas,baking, gaming... etc etc</li>
+              <li>Learning Physics especially clestial mechanics You can read my blog here:
+              <a href="https://medium.com/@atikaahussain" target="_blank" rel="noreferrer">
+                  <span className="highlight">MEDIUM</span>
+                </a>
+              </li>
+              <li>Exploring human personalities</li>
+              <li>Music, kdramas, baking, gaming... etc etc</li>
             </ul>
           </div>
         </div>
