@@ -7,42 +7,42 @@ const projects = [
     description: "Candy Crush project made with core C++ basics and SFML library for graphical interface (soon to be uploaded)",
     tech: "C++ and SFML",
      github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
+    demo: "" 
   },
   {
     title: "GYM-MANAGEMENT WEBSITE",
     description: "A full responsive web app using React, Node.js, and MySQL (soon to be uploaded)",
     tech: "React, Node.js, MySQL",
      github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
+    demo: "https://github.com/atikaahussain/candy-crush-clone"
   },
   {
     title: "FLAPPY BIRD CLONE",
-    description: "A Flappy Bird clone made in x86 Assembly on 80x25 interface (soon to be uploaded)",
+    description: "A Flappy Bird clone made in x86 Assembly on 80x25 interface",
     tech: "x86 Assembly (80x25)",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
+     github: "https://github.com/atikaahussain/Flappy-Bird",
+    demo: ""
   },
-  {
-    title: "BOUNCE",
-    description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
-    tech: "C#, Unity",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
-  },
-  {
-    title: "GOING SVT",
-    description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
-    tech: "React, HTML, CSS, JS",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
-  },
+  // {
+  //   title: "BOUNCE",
+  //   description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
+  //   tech: "C#, Unity",
+  //    github: "https://github.com/atikaahussain/candy-crush-clone",
+  //   demo: "https://github.com/atikaahussain/candy-crush-clone"
+  // },
+  // {
+  //   title: "GOING SVT",
+  //   description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
+  //   tech: "React, HTML, CSS, JS",
+  //    github: "https://github.com/atikaahussain/candy-crush-clone",
+  //   demo: "https://github.com/atikaahussain/candy-crush-clone"
+  // },
   {
     title: "PORTFOLIO WEBSITE",
     description: "Responsive personal portfolio site with creative UI (soon to be uploaded)",
     tech: "HTML, CSS, JS",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone" // leave blank if no live demo
+     github: "https://github.com/atikaahussain/portfolio-web",
+    demo: "atikadesktop.vercel.app"
   }
 ];
 
