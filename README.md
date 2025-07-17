@@ -26,4 +26,4 @@ An interactive and creative personal portfolio website featuring draggable float
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/atikaahussain/portfolio-website.git
+   git clone https://github.com/atikaahussain/portfolio-web.git
