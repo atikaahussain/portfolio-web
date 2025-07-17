@@ -19,7 +19,7 @@ const About = ({ onClose }) => {
         <div className="box-content">
           <div className="about-content">
             <p>
-              hello i am a software and <span className="highlight">game developer</span> currently in my third year of BS
+              hello i am a software and <span className="highlight">game developer</span> currently completed my second year of BS
               in Computer Science major and i am passionate about...
             </p>
             <ul>
