@@ -9,7 +9,6 @@ import aboutme from '../assets/aboutme.png';
 import links from '../assets/links.png';
 import contact from '../assets/contact.png';
 import project from '../assets/project.png';
-import crossbtn from '../assets/cross.png';
 
 const componentMap = {
   about: About,
