@@ -18,7 +18,7 @@ function App() {
         <h1>
           hello! <span className="highlight">i’m Atika</span>
         </h1>
-        <p>developer, illustrator and Computer Science major</p>
+        <p>Developer, illustrator and Computer-Science major</p>
       </div>
 
       <FloatingBoxesManager />
