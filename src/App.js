@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/style.css';
+import FloatingBoxesManager from './components/FloatingBoxesManager';
+import Footer from './components/Footer';
+import HeaderBar from './components/HeaderBar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    
+    <HeaderBar/>{}
+
+    <div className="main-box">
+        
+      <div className="nav-bar">home</div>
+
+      <div className="box-content">
+        <h1>
+          hello! <span className="highlight">i’m Atika</span>
+        </h1>
+        <p>developer, illustrator and Computer Science major</p>
+      </div>
+
+      <FloatingBoxesManager />
+
+      <Footer />
     </div>
+    </>
+    
   );
 }
 

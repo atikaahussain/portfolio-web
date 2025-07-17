@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #058dc7);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-box {
+  background: white;
+  font-size: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.main-box p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.main-box .nav-bar {
+  text-align: left;
+  background: #3c3c3c;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: -30px -30px 20px -30px;
+  box-sizing: border-box;
+}
+
+.highlight {
+  color: #fe588d;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a .highlight {
+  color: #fe588d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a .highlight:hover {
+  transform: scale(1.05);
+  color: #f883a8;
+}
+
+.icon-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 15px;
+}
+
+.main-box .icon-buttons {
+  margin-bottom: 30px;
+}
+
+.icon-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  max-width: 100px;
+  flex: 1 0 70px;
+}
+
+.icon-buttons img {
+  width: 60px;
+  height: 60px;
+}
+
+.icon-buttons span {
+  display: block;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.icon-buttons button:hover {
+  transform: scale(1.05);
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 22px; /* Controls icon size */
+  color: #f0eaea;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.close-btn:hover {
+  color: #a39f9f;
+}
+
+
+.close-btn:active {
+  cursor: grabbing;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .main-box {
+    font-size: 20px;
+    padding: 20px;
+  }
+
+  .main-box .nav-bar {
+    font-size: 18px;
+    padding: 8px 12px;
+    margin: -20px -20px 15px -20px;
+  }
+
+  .box-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .box-content p {
+    font-size: 1rem;
+  }
+
+  .icon-buttons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon-buttons span {
+    font-size: 0.8rem;
+  }
+
+  .icon-buttons {
+    gap: 10px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-box {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .main-box .nav-bar {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+
+  .icon-buttons img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icon-buttons span {
+    font-size: 0.75rem;
+  }
+}
+
+.boxes-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 10;
+    animation: fadeIn 0.3s ease;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.navtitle {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

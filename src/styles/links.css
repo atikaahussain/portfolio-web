@@ -1,0 +1,67 @@
+/* LINK, PROJECT, CONTACT boxes */
+.linkbox {
+  padding: 30px;
+  text-align: center;
+  z-index: 100;
+  animation: fadeIn 0.3s ease;
+  box-sizing: border-box;
+  background-color: white;
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  border: 2px solid #444;
+  border-radius: 12px;
+  overflow: auto;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* LINK section */
+.linkbox .icon-buttons {
+  gap: 15px;
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+.linkbox .icon-buttons p {
+  display: flex;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  border: 1px solid #e98fac;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  .linkbox {
+    padding: 20px 10px;
+    max-width: 90vw;
+    max-height: 85vh;
+  }
+
+  .linkbox .icon-buttons {
+    gap: 10px;
+    flex-direction: row; /* Keep row layout */
+    justify-content: center;
+  }
+
+  .linkbox .icon-buttons button {
+    flex: 1 0 30%; /* allow 2–3 buttons per row */
+    max-width: 80px;
+  }
+
+  .linkbox .icon-buttons img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .linkbox .icon-buttons span {
+    font-size: 14px;
+  }
+
+  .linkbox .icon-buttons p {
+    font-size: 10px;
+  }
+}

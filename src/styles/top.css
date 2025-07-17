@@ -1,0 +1,38 @@
+/* top-right header */
+.top {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 999;
+}
+
+.top .socials a {
+  color: #3c3c3c;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.top .socials a:hover {
+  color: #ff91b7;
+}
+
+@media (max-width: 500px) {
+  .top {
+    padding: 8px 12px;
+
+    right: 5px;
+    top: 5px;
+  }
+
+  .top .socials a {
+    font-size: 14px;
+    margin: 0 6px;
+  }
+}

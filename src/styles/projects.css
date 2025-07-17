@@ -1,0 +1,120 @@
+
+/* PROJECT section */
+.project-box {
+  position: relative;
+  background-color: white;
+  width: 90vw;
+  max-width: 900px;
+  height: 70vh;
+  border: 2px solid #444;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.3s ease;
+}
+.project-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+/* GRID layout for project cards */
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive 3-column */
+  gap: 20px;
+  padding: 30px 10px 0px 10px;
+}
+
+.proj-card {
+  display: flex;
+  flex-direction: column;
+background-color: #2d3543;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 2px 5px 10px rgba(16, 14, 14, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proj-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.proj-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 0px;
+  margin-bottom: 15px;
+}
+.proj-header a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.proj-header a:hover {
+  color: #ff91b7;
+}
+
+@media (max-width: 500px) {
+  .top {
+    padding: 8px 12px;
+
+    right: 5px;
+    top: 5px;
+  }
+
+  .top .socials a {
+    font-size: 14px;
+    margin: 0 6px;
+  }
+}
+
+.proj-title {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.proj-text {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 15px;
+}
+
+.proj-tech {
+  font-size: 13px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ccc;
+}
+@media (max-width: 768px) {
+  .project-box {
+    max-width: 95vw;
+    height: 80vh;
+  }
+
+  .proj-grid {
+    grid-template-columns: 1fr; /* One column layout */
+    padding: 20px;
+  }
+
+  .proj-card {
+    padding: 15px;
+  }
+
+  .proj-title {
+    font-size: 16px;
+  }
+
+  .proj-text,
+  .proj-tech {
+    font-size: 13px;
+  }
+}
