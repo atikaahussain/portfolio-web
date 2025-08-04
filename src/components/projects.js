@@ -87,6 +87,7 @@ const Projects = () => {
          {/* Illustrations */}
           <div className='illustration-content'>
             <h1>Illustrations</h1>
+            
             <ul className=" ill-grid">
               {illustrationImages.map((src, index) => (
                 <li key={index} className="ill-card">
