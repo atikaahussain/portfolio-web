@@ -1,20 +1,30 @@
 import React from 'react';
 import '../styles/projects.css';
 import '../styles/style.css';
+import ill1 from '../assets/ill-1.jpg';
+import ill2 from '../assets/ill-2.jpg';
+import ill3 from '../assets/ill-3.jpg';
+import ill4 from '../assets/ill-4.jpg';
+import ill5 from '../assets/ill-5.jpg';
+import ill6 from '../assets/ill-6.jpg';
+import ill7 from '../assets/ill-7.jpg';
+import ill8 from '../assets/ill-8.jpg';
+
+
 const projects = [
   {
     title: "CANDY CRUSH CLONE",
     description: "Candy Crush project made with core C++ basics and SFML library for graphical interface (soon to be uploaded)",
     tech: "C++ and SFML",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
+     github: "",
     demo: "" 
   },
   {
     title: "GYM-MANAGEMENT WEBSITE",
     description: "A full responsive web app using React, Node.js, and MySQL (soon to be uploaded)",
     tech: "React, Node.js, MySQL",
-     github: "https://github.com/atikaahussain/candy-crush-clone",
-    demo: "https://github.com/atikaahussain/candy-crush-clone"
+     github: "",
+    demo: ""
   },
   {
     title: "FLAPPY BIRD CLONE",
@@ -23,20 +33,20 @@ const projects = [
      github: "https://github.com/atikaahussain/Flappy-Bird",
     demo: ""
   },
-  // {
-  //   title: "BOUNCE",
-  //   description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
-  //   tech: "C#, Unity",
-  //    github: "https://github.com/atikaahussain/candy-crush-clone",
-  //   demo: "https://github.com/atikaahussain/candy-crush-clone"
-  // },
-  // {
-  //   title: "GOING SVT",
-  //   description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
-  //   tech: "React, HTML, CSS, JS",
-  //    github: "https://github.com/atikaahussain/candy-crush-clone",
-  //   demo: "https://github.com/atikaahussain/candy-crush-clone"
-  // },
+  {
+    title: "BOUNCE",
+    description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
+    tech: "C#, Unity",
+     github: "",
+    demo: ""
+  },
+  {
+    title: "GOING SVT",
+    description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
+    tech: "React, HTML, CSS, JS",
+     github: "",
+    demo: ""
+  },
   {
     title: "PORTFOLIO WEBSITE",
     description: "Responsive personal portfolio site with creative UI (soon to be uploaded)",
@@ -45,7 +55,10 @@ const projects = [
     demo: "atikadesktop.vercel.app"
   }
 ];
+const illustrationImages = [
+  ill8,ill3,ill5,ill1,ill2,ill6,ill7,ill4
 
+];
 const Projects = () => {
   return (
     <div className="projectbox">
@@ -53,7 +66,7 @@ const Projects = () => {
       <div className='project-box'>
         {/* navbar */}
         <div className="project-content">
-
+        <h1>Development</h1>
           <ul className="proj-grid">
 
             {projects.map((proj, index) => (
@@ -70,6 +83,19 @@ const Projects = () => {
               </li>
             ))}
           </ul>
+        
+         {/* Illustrations */}
+          <div className='illustration-content'>
+            <h1>Illustrations</h1>
+            <ul className=" ill-grid">
+              {illustrationImages.map((src, index) => (
+                <li key={index} className="ill-card">
+                  <img src={src} alt={`Illustration ${index + 1}`} />
+                </li>
+              ))}
+            </ul>
+          </div>
+
 
         </div>
       </div>
