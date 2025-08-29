@@ -33,20 +33,20 @@ const projects = [
      github: "https://github.com/atikaahussain/Flappy-Bird",
     demo: ""
   },
-  {
-    title: "BOUNCE",
-    description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
-    tech: "C#, Unity",
-     github: "",
-    demo: ""
-  },
-  {
-    title: "GOING SVT",
-    description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
-    tech: "React, HTML, CSS, JS",
-     github: "",
-    demo: ""
-  },
+  // {
+  //   title: "BOUNCE",
+  //   description: "A 3D ball game built with Unity to learn Unity basics (soon to be uploaded)",
+  //   tech: "C#, Unity",
+  //    github: "",
+  //   demo: ""
+  // },
+  // {
+  //   title: "GOING SVT",
+  //   description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
+  //   tech: "React, HTML, CSS, JS",
+  //    github: "",
+  //   demo: ""
+  // },
   {
     title: "PORTFOLIO WEBSITE",
     description: "Responsive personal portfolio site with creative UI (soon to be uploaded)",
