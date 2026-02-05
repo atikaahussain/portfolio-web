@@ -4,7 +4,7 @@
   top: 10px;
   right: 10px;
   background-color: transparent;
-  color: white;
+  color: #406768;
   padding: 10px 15px;
   font-size: 18px;
   font-weight: bold;
@@ -12,15 +12,15 @@
 }
 
 .top .socials a {
-  color: #3c3c3c;
-  text-decoration: none;
+  color: #687d31;
+  text-decoration: underline;
   margin: 0 10px;
   font-size: 18px;
   transition: color 0.3s ease;
 }
 
 .top .socials a:hover {
-  color: #ff91b7;
+  color: #6fa9bb;
 }
 
 @media (max-width: 500px) {

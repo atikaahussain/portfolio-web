@@ -1,6 +1,5 @@
 import React from 'react';
-import profilePic from '../assets/profile.jpg';
-import crossIcon from '../assets/cross.png'; // adjust path if needed
+import profilePic from '../assets/profile.png';
 import '../styles/about.css'; // if you have a dedicated CSS file
 
 const About = ({ onClose }) => {
@@ -11,7 +10,7 @@ const About = ({ onClose }) => {
         <div className="about-top">
           <img className="about-img" src={profilePic} alt="Atika" />
           <div className="about-text">
-            <h1 className="highlight">ATIKA HUSSAIN🍃</h1>
+            <h1 className="highlight">ATIKA HUSSAIN</h1>
             <p>Software Engineer, illustrator, Computer Science Undergrad </p>
           </div>
         </div>

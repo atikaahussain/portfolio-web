@@ -1,49 +1,62 @@
+:root {
+  /* Ghibli-inspired cinematic palette */
+  --color-phthalo: #19350c;      /* primary accents, headings, active */
+  --color-mustard: #687d31;      /* buttons, links, highlights */
+  --color-light-gray: #d5d3cc;   /* main background */
+  --color-deep-sparkle: #406768; /* secondary text, borders, details */
+  --color-moonstone: #6fa9bb;    /* hover, subtle emphasis */
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: linear-gradient(to bottom, #ffffff, #058dc7);
+  font-family: "ITC Avant Garde Gothic Medium", "ITC Avant Garde Gothic",
+    "Avant Garde", "Century Gothic", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--color-light-gray);
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-    padding: 20px;
+  padding: 20px;
   box-sizing: border-box;
+  color: var(--color-deep-sparkle);
 }
 
 .main-box {
-  background: white;
   font-size: 25px;
-  border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   width: 100%;
   max-width: 650px;
   padding: 30px;
   text-align: center;
   position: relative;
   box-sizing: border-box;
+  background-color: #d5d3cc;
+  border: 1px solid rgba(64, 103, 104, 0.35);
 }
 
 .main-box p {
-  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight: 500;
 }
 
 .main-box .nav-bar {
   text-align: left;
-  background: #3c3c3c;
-  color: white;
+  background: none;
+  color: var(--color-phthalo);
   font-weight: bold;
-  padding: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  margin: -30px -30px 20px -30px;
+  padding: 5px;
+  margin: 0 0 20px 0;
   box-sizing: border-box;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(64, 103, 104, 0.4);
 }
 
 .highlight {
-  color: #fe588d;
-  text-decoration: none;
+  color: var(--color-mustard);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 a {
@@ -51,14 +64,13 @@ a {
 }
 
 a .highlight {
-  color: #fe588d;
-  text-decoration: none;
+  color: var(--color-mustard);
+  text-decoration: underline;
   font-weight: bold;
 }
 
 a .highlight:hover {
-  transform: scale(1.05);
-  color: #f883a8;
+  color: var(--color-moonstone);
 }
 
 .icon-buttons {
@@ -80,6 +92,9 @@ a .highlight:hover {
   text-align: center;
   max-width: 100px;
   flex: 1 0 70px;
+  padding: 0;
+  box-shadow: none;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .icon-buttons img {
@@ -89,13 +104,14 @@ a .highlight:hover {
 
 .icon-buttons span {
   display: block;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   margin-top: 5px;
+  color: var(--color-deep-sparkle);
 }
 
 .icon-buttons button:hover {
-  transform: scale(1.05);
+  transform: translateY(-1px);
+  color: var(--color-moonstone);
 }
 
 .close-btn {
@@ -103,13 +119,13 @@ a .highlight:hover {
   top: 12px;
   right: 12px;
   font-size: 22px; /* Controls icon size */
-  color: #f0eaea;
+  color: #d5d3cc;
   cursor: pointer;
   transition: color 0.2s ease;
 }
 
 .close-btn:hover {
-  color: #a39f9f;
+  color: var(--color-moonstone);
 }
 
 
@@ -179,25 +195,28 @@ a .highlight:hover {
   left: 0;
   right: 0;
   height: 30px;
-  background-color: #333;
-  color: white;
+  background-color: #406768;
+  color: #d5d3cc;
   padding: 8px 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
   z-index: 10;
-    animation: fadeIn 0.3s ease;
-    border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  animation: fadeIn 0.3s ease;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom: 1px solid rgba(64, 103, 104, 0.35);
 }
 
 .navtitle {
-  font-family: sans-serif;
   font-weight: bold;
   font-size: 20px;
 }
+
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
 }
+
+@keyframes cloud-drift {}
