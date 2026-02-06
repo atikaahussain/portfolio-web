@@ -11,7 +11,7 @@ const About = ({ onClose }) => {
           <img className="about-img" src={profilePic} alt="Atika" />
           <div className="about-text">
             <h1 className="highlight">ATIKA HUSSAIN</h1>
-            <p>Software Engineer, illustrator, Computer Science Undergrad </p>
+            <p>Software Engineer, artist, Computer Science Undergrad Student </p>
           </div>
         </div>
 
@@ -22,15 +22,15 @@ const About = ({ onClose }) => {
               in Computer Science major i am passionate about...
             </p>
             <ul>
+              <li>AI and Machine Learning</li>
               <li>Game developement</li>
               <li>Problem Solving</li>
-              <li>Data Base integration</li>
+              <li>Creative website designing</li>
               <li>Story Boarding</li>
               <li>Creative illustrations</li>
-              <li>Fun and creative website designing</li>
             </ul>
             <p>
-              I am intrested in building creative and interactive applications that combine <span className="highlight">problem-solving, storyboarding,</span>
+              I am intrested in building creative and interactive applications that combine <span className="highlight">problem-solving, storyboarding,with AI-driven experiences,</span>
               and innovative design—blending technical expertise with artistic vision.
             </p>
             <p>
@@ -49,7 +49,7 @@ const About = ({ onClose }) => {
 
           <div className="about-edu">
             <h1>EDUCATION</h1>
-            <p>Third year university student doing Bachelors in Computer Science from FAST NUCES.</p>
+            <p>Third year university student doing Bachelors in Computer Science from FAST NUCES LHR.</p>
           </div>
 
           <div className="about-int">

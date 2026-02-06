@@ -13,17 +13,31 @@ import ill8 from '../assets/ill-8.jpg';
 
 const projects = [
   {
-    title: "CANDY CRUSH CLONE",
-    description: "Candy Crush project made with core C++ basics and SFML library for graphical interface (soon to be uploaded)",
-    tech: "C++ and SFML",
-     github: "",
-    demo: "" 
+    title: "GOING CARAT",
+    description: "A fan app of Seventeen band that gathers seventeen related content in one place",
+    tech: "React",
+     github: "https://github.com/atikaahussain/going-carat",
+    demo: "https://goingcarat.vercel.app/"
   },
   {
     title: "GYM-MANAGEMENT WEBSITE",
     description: "A full responsive web app using React, Node.js, and MySQL (soon to be uploaded)",
     tech: "React, Node.js, MySQL",
-     github: "",
+     github: "https://github.com/atikaahussain/Gym-Management-System",
+    demo: ""
+  },
+  {
+    title: "TRAIN-RESERVATION SYSTEM",
+    description: "A full responsive web app using React, Node.js, and MySQL (soon to be uploaded)",
+    tech: "Java, JavaFX, PostgreSQL",
+    github: "https://github.com/atikaahussain/Train-Reservation-System",
+    demo: ""
+  },
+  {
+    title: "INSTA FOLLOW TRACKER",
+    description: "code made to keep track who not following you, who follows you and who you following back etc etc",
+    tech: "python, selenium",
+     github: "https://github.com/atikaahussain/insta-follow-tracker",
     demo: ""
   },
   {
@@ -40,19 +54,20 @@ const projects = [
   //    github: "",
   //   demo: ""
   // },
-  // {
-  //   title: "GOING SVT",
-  //   description: "Responsive fan app for SEVENTEEN boy band (soon to be uploaded)",
-  //   tech: "React, HTML, CSS, JS",
-  //    github: "",
-  //   demo: ""
-  // },
+
+  {
+    title: "CANDY CRUSH CLONE",
+    description: "Candy Crush project made with core C++ basics and SFML library for graphical interface (soon to be uploaded)",
+    tech: "C++ and SFML",
+     github: "",
+    demo: "" 
+  },
   {
     title: "PORTFOLIO WEBSITE",
     description: "Responsive personal portfolio site with creative UI (soon to be uploaded)",
-    tech: "HTML, CSS, JS",
+    tech: "React",
      github: "https://github.com/atikaahussain/portfolio-web",
-    demo: "atikadesktop.vercel.app"
+    demo: ""
   }
 ];
 const illustrationImages = [
