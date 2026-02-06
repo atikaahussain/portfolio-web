@@ -23,9 +23,3 @@ An interactive and creative personal portfolio website featuring draggable float
 -  **Assets** — Local profile, logos, buttons
 
 ---
-
-## 🚀 How to Run This Project Locally
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/atikaahussain/portfolio-website.git
